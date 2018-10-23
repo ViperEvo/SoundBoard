@@ -1,3 +1,55 @@
+document.body.addEventListener('keyup', (t)=>{
+    console.log(t)
+    if (t.keyCode == 81) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+        console.log("ee");
+    }
+    if (t.keyCode == 119) 
+    {
+        document.getElementById('bClap').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 101) 
+    {
+        document.getElementById('bHiHat').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 114) 
+    {
+        document.getElementById('bKick').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 97) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 115) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 100) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 102) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 122) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 120) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 99) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+    if (t.keyCode == 118) 
+    {
+        document.getElementById('bBoom').style.backgroundColor = "red";
+    }
+})
 document.body.addEventListener('keypress', (e)=>{
     
     
@@ -6,6 +58,7 @@ document.body.addEventListener('keypress', (e)=>{
         let sClap = document.querySelector('#sBoom')
         sClap.currentTime = 0
         sClap.play()
+        
     }
     if (e.charCode == 119) 
     {
