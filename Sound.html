@@ -8,19 +8,19 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
-    <script src="Script.js"></script>
-    <audio src="boom.wav" id="sBoom" controls></audio>
-    <audio src="clap.wav" id="sClap" controls></audio>
-    <audio src="hihat.wav" id="sHiHat" controls></audio>
-    <audio src="kick.wav" id="sKick" controls></audio>
-    <audio src="my-man.mp3" id="sMyMan" controls></audio>
-    <audio src="openhat.wav" id="sOpenHat" controls></audio>
-    <audio src="pickle_rick.mp3" id="sPickleRick" controls></audio>
-    <audio src="ride.wav" id="sRide" controls></audio>
-    <audio src="snap-yes_1.mp3" id="sSnap" controls></audio>
-    <audio src="snare.wav" id="sSnare" controls></audio>
-    <audio src="tink.wav" id="sTink" controls></audio>
-    <audio src="tom.wav" id="sTom" controls></audio>
+    
+    <audio src="boom.wav" id="sBoom" ></audio>
+    <audio src="clap.wav" id="sClap" ></audio>
+    <audio src="hihat.wav" id="sHiHat" ></audio>
+    <audio src="kick.wav" id="sKick" ></audio>
+    <audio src="my-man.mp3" id="sMyMan" ></audio>
+    <audio src="openhat.wav" id="sOpenHat" ></audio>
+    <audio src="pickle_rick.mp3" id="sPickleRick" ></audio>
+    <audio src="ride.wav" id="sRide" ></audio>
+    <audio src="snap-yes_1.mp3" id="sSnap" ></audio>
+    <audio src="snare.wav" id="sSnare" ></audio>
+    <audio src="tink.wav" id="sTink" ></audio>
+    <audio src="tom.wav" id="sTom" ></audio>
 
     <div id="main">
         <div class="row">
@@ -41,6 +41,13 @@
                 <div class="box" id="bTink">C</div>
                 <div class="box" id="bTom">V</div>
         </div>
+        <div id="record">
+            
+            Record<input type="checkbox" value = "Record" id = "_record">
+            <input type="submit" value = "Play" id = "_play">
+            
+        </div>
     </div>
+    <script src="Script.js"></script>
 </body>
 </html>

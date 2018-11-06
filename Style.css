@@ -21,3 +21,9 @@
     color: rgb(230, 230, 230);
     text-align: center;
 }
+#record
+{
+    min-height: 300px;
+    border-color: black;
+    border-style: solid;
+}

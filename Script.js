@@ -1,69 +1,3 @@
-document.body.addEventListener('keyup', (t)=>{
-    console.log(t)
-    switch (t.keyCode)
-    {
-    case 81:
-    {
-        document.getElementById('bBoom').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 87:
-    {
-        document.getElementById('bClap').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 69:
-    {
-        document.getElementById('bHiHat').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 82:
-    {
-        document.getElementById('bKick').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 65:
-    {
-        document.getElementById('bMyMan').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 83:
-    {
-        document.getElementById('bOpenHat').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 68:
-    {
-        document.getElementById('bPickleRick').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 70:
-    {
-        document.getElementById('bRide').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 90:
-    {
-        document.getElementById('bSnap').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 88:
-    {
-        document.getElementById('bSnare').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 67:
-    {
-        document.getElementById('bTink').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    case 86:
-    {
-        document.getElementById('bTom').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
-        break;
-    }
-    }
-})
 document.body.addEventListener('keypress', (e)=>{
     
     switch (e.charCode)
@@ -166,5 +100,72 @@ document.body.addEventListener('keypress', (e)=>{
     }
     }
 })
+document.body.addEventListener('keyup', (t)=>{
+    
+    switch (t.keyCode)
+    {
+    case 81:
+    {
+        document.getElementById('bBoom').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 87:
+    {
+        document.getElementById('bClap').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 69:
+    {
+        document.getElementById('bHiHat').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 82:
+    {
+        document.getElementById('bKick').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 65:
+    {
+        document.getElementById('bMyMan').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 83:
+    {
+        document.getElementById('bOpenHat').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 68:
+    {
+        document.getElementById('bPickleRick').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 70:
+    {
+        document.getElementById('bRide').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 90:
+    {
+        document.getElementById('bSnap').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 88:
+    {
+        document.getElementById('bSnare').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 67:
+    {
+        document.getElementById('bTink').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    case 86:
+    {
+        document.getElementById('bTom').style.backgroundColor = 'rgba(44, 54, 64, 0.9)';
+        break;
+    }
+    }
+})
+
 
 
