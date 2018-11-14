@@ -1,3 +1,7 @@
+body
+{
+    background-color: rgba(240, 240, 240);
+}
 #main
 {
     float: left;
@@ -21,7 +25,7 @@
     color: rgb(230, 230, 230);
     text-align: center;
 }
-#record1
+#recorddiv
 {
     min-height: 300px;
     border-color: black;
