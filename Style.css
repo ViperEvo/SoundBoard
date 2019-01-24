@@ -24,10 +24,30 @@ body
     font-size: 100px;
     color: rgb(230, 230, 230);
     text-align: center;
+    border-radius: 50%;
 }
+span
+{
+    vertical-align: middle;
+}
+button {
+    background-color: rgba(44, 54, 64, 0.9);
+    border: none;
+    color: rgb(230, 230, 230);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+  }
 #recorddiv
 {
-    min-height: 300px;
-    border-color: black;
-    border-style: solid;
+    display: flex;
+}
+.Rdiv
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
 }
